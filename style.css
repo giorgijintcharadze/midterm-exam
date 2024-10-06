@@ -9,6 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ecf2ff;
 }
 
 .container {
@@ -17,7 +18,7 @@ body {
   max-width: 736px;
   height: 71vh;
   border-radius: 20px;
-  border: solid black;
+  background-color: white;
 }
 
 .box1 {
@@ -68,8 +69,8 @@ p {
   line-height: 23.45px;
   text-align: center;
   color: rgba(202, 201, 255, 1);
-  padding-left: 54px;
-  padding-right: 54px;
+  padding-left: 67px;
+  padding-right: 67px;
 }
 .result {
   font-size: 72px;
@@ -85,4 +86,98 @@ p {
   text-align: left;
   color: rgba(202, 201, 255, 1);
   opacity: 0.5;
+}
+.summary-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.27px;
+  text-align: left;
+  color: #303b59;
+  margin-bottom: 28px;
+}
+.box2 {
+  padding: 38px 40px 46px;
+  width: 368px;
+}
+.summary-item {
+  height: 56px;
+  border-radius: 12px;
+  display: flex;
+  padding: 18px 16px;
+  margin-bottom: 16px;
+}
+.summary-list {
+  padding-left: 0;
+}
+.summary-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.summary-item-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  text-transform: capitalize;
+}
+.summary-result {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: #303b59;
+  margin-right: 3px;
+}
+.summary-score {
+  margin-left: auto;
+}
+.summary-maxresult {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.red {
+  background-color: rgba(255, 85, 85, 0.07);
+}
+.yellow {
+  background-color: rgba(255, 178, 30, 0.07);
+}
+.green {
+  background-color: rgba(0, 187, 143, 0.07);
+}
+.blue {
+  background-color: rgba(17, 37, 214, 0.07);
+}
+
+.color-red {
+  color: rgb(255, 85, 85);
+}
+.color-yellow {
+  color: rgb(255, 178, 30);
+}
+.color-green {
+  color: rgb(0, 187, 143);
+}
+.color-blue {
+  color: rgb(17, 37, 214);
+}
+
+button {
+  margin-top: 25px;
+  background-color: #303b59;
+  border: none;
+  border-radius: 128px;
+  height: 56px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 12px;
+  color: white;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
 }
